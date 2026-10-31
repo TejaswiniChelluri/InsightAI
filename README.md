@@ -1,6 +1,6 @@
 # InsightAI — Mini AI Business Intelligence Assistant
 
-**GET selection assessment:** a natural-language sales analytics application backed by validated data and read-only analytical queries.
+A natural-language sales analytics application backed by validated data and read-only analytical queries.
 
 InsightAI lets a user ask supported questions about the supplied sales CSV without writing SQL. Streamlit provides the interface, FastAPI exposes the `/ask` API, SQLite stores imported transactions, and a constrained interpreter maps questions to supported analytical intents. Groq is optional; a local rule-based interpreter is used when no API key is configured or the Groq call fails.
 
